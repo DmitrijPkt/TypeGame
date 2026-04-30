@@ -1,0 +1,19 @@
+h1 {
+    justify-self: center;
+    margin: 22px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    outline: none;
+}
+
+form {
+    margin-bottom: 30px;
+}

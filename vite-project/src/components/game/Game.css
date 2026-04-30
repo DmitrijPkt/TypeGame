@@ -1,0 +1,12 @@
+.game {
+    background-color: #06599f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 5px 5px rgba(130, 130, 130, 0.965);
+}

@@ -1,0 +1,24 @@
+.game-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-task,
+.game-input {
+    text-align: center;
+}
+
+.game-input {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-input input {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+}

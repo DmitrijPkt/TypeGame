@@ -1,0 +1,26 @@
+.start-game {
+    display: flex;
+    justify-content: center;
+}
+
+.start-game button {
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    width: 40%;
+    margin-right: 6px;
+}
+
+.start-game select {
+    background-color: #f0f0ed;
+    border-radius: 6px;
+    border: none;
+    margin-left: 6px;
+    width: 15%;
+    padding-left: 5px;
+}
+
+.start-game button:hover {
+    background-color: #000;
+    color: #f0f0ed;
+}

@@ -1,0 +1,23 @@
+.page {
+    display: grid;
+    grid-template-areas: "header header"
+        "side-panel main-panel";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows:  auto 1fr;
+    height: 100vh;
+}
+
+.page .header {
+    grid-area: header;
+}
+
+.page .side-panel {
+    grid-area: side-panel;
+    padding: 20px 20px;
+    background-color: #3d3d3d;
+    box-shadow: 5px 0px 5px rgba(130, 130, 130, 0.965);
+}
+
+.page .main-panel {
+    grid-area: main-panel;
+}
