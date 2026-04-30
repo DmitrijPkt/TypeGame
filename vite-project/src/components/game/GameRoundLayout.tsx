@@ -52,7 +52,7 @@ export default function({word, onWordMatch, onTimeEnd, score, updateEnteredChars
                 <h1 id="game-task"><i>{word}</i></h1>
             </div>
             <div className="game-input">
-                <input ref={inputRef} /*id="game-input"*/ type="text" onChange={handleChange} placeholder="Type the word here..." autoFocus />
+                <input ref={inputRef} /*id="game-input"*/ type="text" onChange={handleChange} onPaste={(e) => e.preventDefault()} placeholder="Type the word here..." autoFocus />
             </div>
         </>
     )
