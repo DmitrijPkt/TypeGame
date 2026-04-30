@@ -4,14 +4,6 @@ import GameRoundLayout from './GameRoundLayout'
 import GameResultLayout from './GameResultLayout'
 import { useEffect, useRef, useState } from 'react'
 
-type LeaderBoard = {
-    [difficulty: number]: LeaderBoardRow[]
-}
-
-type LeaderBoardRow = {
-    name: string
-    score: number
-}
 
 type AddToLeaderBoardProps = {
     difficulty: number
