@@ -41,10 +41,10 @@ export default function({word, onWordMatch, onTimeEnd, score, updateEnteredChars
         <>
             <div className="game-info">
                 <div className="game-info-time">
-                    Time left: <span id="game-timer">{timeLeft}</span>s
+                    Time left: <span>{timeLeft}</span>s
                 </div>
                 <div className="game-info-score">
-                    Score: <span id="game-score">{score}</span>
+                    Score: <span>{score}</span>
                 </div>
             </div>
             <div className="game-task">
@@ -52,7 +52,7 @@ export default function({word, onWordMatch, onTimeEnd, score, updateEnteredChars
                 <h1 id="game-task"><i>{word}</i></h1>
             </div>
             <div className="game-input">
-                <input ref={inputRef} /*id="game-input"*/ type="text" onChange={handleChange} onPaste={(e) => e.preventDefault()} placeholder="Type the word here..." autoFocus />
+                <input ref={inputRef} type="text" onChange={handleChange} onPaste={(event) => event.preventDefault()} placeholder="Type the word here..." autoFocus />
             </div>
         </>
     )

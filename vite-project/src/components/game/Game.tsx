@@ -12,11 +12,10 @@ type AddToLeaderBoardProps = {
 }
 
 interface GameProps {
-    //leaderBoard: LeaderBoard
     addToLeaderboard: (props: AddToLeaderBoardProps) => void
 }
 
-export default function({ /*leaderBoard,*/ addToLeaderboard }: GameProps) {
+export default function({ addToLeaderboard }: GameProps) {
     const [gameLayout, setGameLayout] = useState('start')
     const [currentWord, setCurrentWord] = useState('')
     const [score, setScore] = useState(0)

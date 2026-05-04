@@ -12,12 +12,12 @@ export default function({ buttonName, onStart, block}: StartGameProps) {
 
     return(
         <div className="start-game">
-            <button className="start-button" onClick={() => {
+            <button onClick={() => {
                 if (!block) {
                     onStart(difficulty)
                 }}
                 } type='submit'>{buttonName}</button>
-            <select name="difficulty" id="start-game-difficulty" onChange={(event) => setDifficulty(Number(event.target.value))}>
+            <select name="difficulty" onChange={(event) => setDifficulty(Number(event.target.value))}>
                 <option value="0">Easy</option>
                 <option value="1">Medium</option>
                 <option value="2">Hard</option>

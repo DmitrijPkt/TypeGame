@@ -1,19 +1,16 @@
-h1 {
+.start-player-name h1 {
     justify-self: center;
     margin: 22px 0;
 }
 
-form {
+.start-player-name form {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
-input {
+.start-player-name input {
     width: 40%;
     height: 30px;
     outline: none;
-}
-
-form {
-    margin-bottom: 30px;
 }
